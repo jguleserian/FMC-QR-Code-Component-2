@@ -23,10 +23,58 @@ body {
   background-color: var(--slate-300);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 32rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.6rem 1.6rem 2.5rem 1.6rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+}
+
+img {
+  height: 28.8rem;
+  width: 28.8rem;
+  border-radius: 1rem;
+}
+
+.heading {
+  width: 25.6rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  color: var(--slate-900);
+  line-height: 120%;
+}
+
+.instructions {
+  width: 25.6rem;
+  text-align: center;
+  margin: 1.6rem auto 0 auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--slate-500);
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.component {
+  background-color: var(--white);
+}
 
 .attribution {
+  position: relative;
+  bottom: -6rem;
   font-size: 11px;
   text-align: center;
+  background-color: var(--slate-300);
 }
 
 .attribution a {
