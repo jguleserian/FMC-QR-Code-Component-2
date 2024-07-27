@@ -39,6 +39,12 @@ main {
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
 }
 
+h1 {
+  display: hidden;
+  position: absolute;
+  left: 200rem;
+}
+
 img {
   height: 28.8rem;
   width: 28.8rem;
